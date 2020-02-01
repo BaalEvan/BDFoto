@@ -46,6 +46,7 @@ namespace HMatuszewski.PhotoAlbum
         {
             var albumView =  new AlbumView(AlbumList.SelectedItem.ToString());
             albumView.Show();
+            Hide();
         }
 
         private void ReturnBtn_Click(object sender, EventArgs e)
