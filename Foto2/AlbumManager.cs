@@ -35,8 +35,7 @@ namespace HMatuszewski.PhotoAlbum
 
         private void LoadPreImportedPhotos()
         {
-            _albums.Add(new TextInstance(){Name = "PreImportedPhotos"});
-            _albums.Add(new TextInstance(){Name = "Empty Head"});
+
             AlbumList.Refresh();
         }
 
